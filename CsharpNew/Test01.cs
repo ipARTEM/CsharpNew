@@ -27,4 +27,9 @@ namespace CsharpNew
                 Console.WriteLine($"str: {str}"); ;
         }
     }
+
+    internal    class S
+    {
+
+    } 
 }
