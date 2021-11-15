@@ -9,13 +9,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsharpNew10", "CsharpNew10\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsharpNew10part2", "CsharpNew10part2\CsharpNew10part2.csproj", "{EBDDA6F9-303E-4FA7-8DD4-E59562ECD4A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS10newRecordsStruct", "CS10newRecordsStruct\CS10newRecordsStruct.csproj", "{59701CD2-759D-4B18-9B3A-F2D49047195E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS10newRecordsStruct", "CS10newRecordsStruct\CS10newRecordsStruct.csproj", "{59701CD2-759D-4B18-9B3A-F2D49047195E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS10newDeconstruction", "CS10newDeconstruction\CS10newDeconstruction.csproj", "{37565896-F6DD-41BC-9384-77DD4D4FCA0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS10newDeconstruction", "CS10newDeconstruction\CS10newDeconstruction.csproj", "{37565896-F6DD-41BC-9384-77DD4D4FCA0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS10newGlobalUsings", "CS10newGlobalUsings\CS10newGlobalUsings.csproj", "{3088DCE0-DF58-4987-BA10-8F078E42364B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS10newGlobalUsings", "CS10newGlobalUsings\CS10newGlobalUsings.csproj", "{3088DCE0-DF58-4987-BA10-8F078E42364B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS10newStructureTypes", "CS10newStructureTypes\CS10newStructureTypes.csproj", "{3D2049ED-05B1-4DB0-BB08-9D3E2363A9D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS10newStructureTypes", "CS10newStructureTypes\CS10newStructureTypes.csproj", "{3D2049ED-05B1-4DB0-BB08-9D3E2363A9D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS10newDateOnlyTimeOnly", "CS10newDateOnlyTimeOnly\CS10newDateOnlyTimeOnly.csproj", "{BDBA768C-BD4C-49E0-A7F4-6B439BC557E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS10newPriorityQueue", "CS10newPriorityQueue\CS10newPriorityQueue.csproj", "{EBAFC4BF-87A3-4749-A132-7B98D5DAE192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS10newMaxByMinBy", "CS10newMaxByMinBy\CS10newMaxByMinBy.csproj", "{34A9934F-CCB2-4517-BBB6-5BA12EA3DA16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{3D2049ED-05B1-4DB0-BB08-9D3E2363A9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D2049ED-05B1-4DB0-BB08-9D3E2363A9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D2049ED-05B1-4DB0-BB08-9D3E2363A9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDBA768C-BD4C-49E0-A7F4-6B439BC557E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDBA768C-BD4C-49E0-A7F4-6B439BC557E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDBA768C-BD4C-49E0-A7F4-6B439BC557E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDBA768C-BD4C-49E0-A7F4-6B439BC557E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBAFC4BF-87A3-4749-A132-7B98D5DAE192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBAFC4BF-87A3-4749-A132-7B98D5DAE192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBAFC4BF-87A3-4749-A132-7B98D5DAE192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBAFC4BF-87A3-4749-A132-7B98D5DAE192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A9934F-CCB2-4517-BBB6-5BA12EA3DA16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A9934F-CCB2-4517-BBB6-5BA12EA3DA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A9934F-CCB2-4517-BBB6-5BA12EA3DA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A9934F-CCB2-4517-BBB6-5BA12EA3DA16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
